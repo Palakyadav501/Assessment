@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Currency Converter</title>
+    <link rel="stylesheet" href="/javascript assesment/index.css">
+    <script src="/javascript assesment/index.js"></script>
+</head>
+<body>
+
+<div class="page">
+    <div class="panel-left">
+        <div class="card">
+            <h2>CURRENCY CONVERTER</h2>
+
+            <label>Amount</label>
+            <input id="amount" type="text" placeholder="100">
+
+            <label>From</label>
+            <select id="from">
+                <option>USD</option>
+                <option>INR</option>
+                <option>EUR</option>
+            </select>
+
+            <label>To</label>
+            <select id="to">
+                <option>INR</option>
+                <option>USD</option>
+                <option>EUR</option>                
+            </select>
+
+            <button onclick="doConvert()">Convert</button>
+
+            <div id="result" class="result"></div>
+            <div id="msg" class="msg"></div>
+        </div>
+    </div>
+</body>
+</html>
